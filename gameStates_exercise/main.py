@@ -1,7 +1,5 @@
 from game import Game
 
+g = Game()
 while True:
-    g = Game()
-
     g.update()
-    g.display()
